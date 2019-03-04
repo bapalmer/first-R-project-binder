@@ -5,7 +5,7 @@
 # 03_eg_clean_data.R
 #########################################################################
 # Load the required packages
-library(tidyverse)
+library(c("readr", "tidyr", "dplyr", "magrittr", "ggplot2", "tibble"))
 
 # Section 1: Load the data ----
 # This data frame has 2 lines of meta data that must be skipped over
