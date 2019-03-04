@@ -5,7 +5,11 @@
 # 03_eg_clean_data.R
 #########################################################################
 # Load the required packages
-library(c("readr", "tidyr", "dplyr", "magrittr", "ggplot2", "tibble"))
+install.packages("tidyverse")
+install.packages("rmarkdown")
+install.packages("stargazer")
+# install.packages("pacman") # This allows you to load specific versions of R packages using p_install_version()
+library(tidyverse)
 
 # Section 1: Load the data ----
 # This data frame has 2 lines of meta data that must be skipped over
